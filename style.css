@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*===================
+common CSS Start
+====================*/
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+.container{
+    width: 1410px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+}
+.common-button{
+    margin: 0 490px;
+}
+.common-button a{
+    background-color: #8454F5;
+    padding: 16px 28px;
+    font-family: "Nunito", serif;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 18px;
+    transition: .4s;
+    border: 2px solid transparent;
+}
+.common-button a:hover{
+    background-color: transparent;
+    color: #8454F5;
+    border: 2px solid #8454F5;
+}
+.common-title h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", serif;
+    text-align: center;
+   }
+/*===================
+common CSS End
+====================*/
+/*===============
+Navbar part start
+=================*/
+nav{
+    background-color:#F8FDFE;
+    padding: 30px 0;
+}
+nav .box{
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.menubar{
+    width: 60%;
+}
+.button{
+    width: 20%;
+    text-align: right;
+}
+nav .menubar ul{
+    display: flex;
+    column-gap: 48px;
+    justify-content: center;
+}
+nav .menubar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Open Sans", serif;
+    transition: .4s;
+
+}
+nav .menubar ul li:hover a{
+    color:#8454F5 ;
+}
+nav .menubar ul li a i{
+    margin-left: 3.5px;
+}
+nav .button a{
+    background-color: #8454F5;
+    padding: 16px 28px;
+    font-family: "Nunito", serif;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 18px;
+    transition: .4s;
+    border: 2px solid transparent;
+}
+nav .button a:hover{
+    background-color: transparent;
+    color: #8454F5;
+    border: 2px solid #8454F5;
+}
+/*===============
+Navbar part End
+=================*/
+/*===============
+Banner part Start
+=================*/
+.banner{
+    background: #F8FDFE;
+    padding: 200px 0;
+     position: relative;
+}
+.banner .bannermask{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.banner .bannermask img{
+    width: 100%;
+  }
+.banner .bannertop{
+    position: absolute;
+    top: 6%;
+    left: 32%;
+}
+.banner .bannerleft{
+    position: absolute;
+    top: 100px;
+    left: -7%;
+    z-index: +9999;
+}
+.banner .bannerleft2{
+    position: absolute;
+    top: 195px;
+    left: -11%;
+}
+.banner .bannerright1{
+    position: absolute;
+    bottom: 5px;
+    right: -58px;
+    z-index: +9999;
+}
+.banner .bannerright2{
+    position: absolute;
+    bottom: 0;
+    right: -65px;
+}
+.banner .bannerright3{
+    position: absolute;
+    bottom: 0;
+    right: -200px;
+}
+.banner h1{
+    color: #29313D;
+    width: 464px;
+    font-size: 64px;
+    font-weight: 800;
+    font-family: "Open Sans", serif;
+    margin: 0 490px;
+
+}
+.banner p{
+    color: #29313D;
+    width: 443px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    margin: 0 490px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+}
+/*===============
+Banner part End
+=================*/
+/*===============
+service part Start
+=================*/
+.service{
+    padding: 100px 0;
+}
+.service .common-title h2{
+    font-size: 48px;
+    font-weight:600 ;
+    color: #29313D;
+    font-family: "Poppins", serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.service .box{
+    column-gap: 30px;
+    padding-top: 60px;
+}
+.service-card{
+    width: 330px;
+   background: #fdfdfd;
+    padding: 30px 20px;
+    transition: .4s;
+}
+.service-card:hover{
+    color: white;
+    -webkit-box-shadow: -7px 4px 37px -22px rgba(0,0,0,0.86);
+-moz-box-shadow: -7px 4px 37px -22px rgba(0,0,0,0.86);
+box-shadow: -7px 4px 37px -22px rgba(0,0,0,0.86);
+
+}
+.service-card h3{
+   font-size: 28px;
+   font-weight: 600;
+   color: #29313D;
+   font-family: "Poppins", serif;
+   padding-top: 24px;
+   padding-bottom: 14px;
+}
+.service-card p{
+   font-size: 18px;
+   font-weight: 400;
+   color: #29313D;
+   font-family: "Nunito", serif;
+   padding-bottom: 24px;
+   line-height: 200%;
+}
+.service-card a{
+   font-size: 16px;
+   font-weight: 700;
+   color: #29313D;
+   font-family: "Nunito", serif;
+}
+
+/*===============
+service part End
+=================*/
+/*===============launch part start=================*/
+.launch{
+    padding: 80px 0;
+    position: relative;
+}
+.launch .left-part{
+    width: 540px;
+    background-color: #EEF1F6;
+    height: 620px;
+    border-radius: 50px;
+}
+.launchImage{
+    width: 302px;
+    height: 640px;
+    background-image: url('../Image/launch\ image.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 22%;
+    top: 3%;
+    transform: translate(-50%);
+}
+.launch .right-part{
+    width: 60%;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+.launch .common-title h2{
+    text-align: left;
+    width: 672px;
+    padding: 23px 0;
+}
+.launch .common-title p{
+   font-size: 18px;
+   font-weight: 400;
+   color: #29313D;
+   font-family: "Nunito", serif;
+   width: 443px;
+   line-height: 200%;
+}
+.launch .service-card:hover{
+box-shadow: 0 0 0;
+}
+/*===============launch part End=================*/
+/*===============Resourse part start=================*/
+.resourse{
+    padding: 80px 0;
+    position: relative;
+}
+.resoursebox{
+    display: flex;
+}
+.resourse .right-part{
+    width: 540px;
+    background-color: #EEF1F6;
+    height: 620px;
+    border-radius: 50px;
+    padding-right: 10px;
+    margin-left: 50px;
+ 
+}
+.resourseimage{
+    width: 302px;
+    height: 640px;
+    background-image: url('../Image/launch\ image.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 8%;
+    top: 3%;
+    transform: translate(-50%);
+}
+.resourse .common-title h2{
+    text-align: left;
+    width: 672px; 
+    padding: 23px 0;
+}
+.resourse .common-title p{
+    font-size: 18px;
+   font-weight: 400;
+   color: #29313D;
+   font-family: "Nunito", serif;
+   width: 443px;
+   line-height: 200%;
+}
+.resourse .service-card:hover{
+    box-shadow: 0 0 0;
+    }
+/*===============Resourse part End=================*/
+/*===============showcase part start=================*/
+.showcase{
+    padding: 100px 0;
+    background-color: rgb(248, 253, 254,0.5);
+}
+.showcase .common-title{
+    font-size: 48px;
+    font-weight:600 ;
+    color: #29313D;
+    font-family: "Poppins", serif;
+    text-align: center;
+  }
+  .showcase .common-title p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito", serif;
+    padding-top: 35px;
+ }
+ .showcasebox{
+    justify-content: space-between;
+    padding-top: 60px;
+ }
+.showcaseimage{
+    width: 302px;
+    height: 640px;
+    border-radius: 20px;
+    background-image: url("../Image/launch\ image.png");
+    background-position: center;
+    background-size: cover;
+     
+}
+/*===============showcase part End=================*/
+
